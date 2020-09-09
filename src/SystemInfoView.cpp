@@ -494,6 +494,24 @@ void SystemInfoView::SystemChanged(const SystemPath &path)
 
 		col1->Add((new Gui::Label(Lang::SYSTEM_NUMBER))->Color(255, 255, 0), 0, 7 * YSEP);
 		col2->Add(new Gui::Label(stringf("%0", path.systemIndex)), 0, 7 * YSEP);
+		col1->Add((new Gui::Label(Lang::LAWLESSNESS))->Color(255, 255, 0), 0, 8 * YSEP);
+		const double lawlessness = this->m_system->GetSysPolit().lawlessness.ToDouble();
+		char* lawlessness_label;
+		if (lawlessness <= 0.01)
+			lawlessness_label = Lang::LL_ALMOST_NON_EXISTENT;
+		else if (lawlessness <= 0.05)
+			lawlessness_label = Lang::LL_VERY_SAFE;
+		else if (lawlessness <= 0.1)
+			lawlessness_label = Lang::LL_SAFE;
+		else if (lawlessness <= 0.25)
+			lawlessness_label = Lang::LL_MODERATE;
+		else if (lawlessness <= 0.4)
+			lawlessness_label = Lang::LL_HIGH;
+		else if (lawlessness <= 0.6)
+			lawlessness_label = Lang::LL_VERY_HIGH;
+		else
+			lawlessness_label = Lang::LL_EXTREME;
+		col2->Add(new Gui::Label(lawlessness_label), 0, 8 * YSEP);
 	}
 
 	UpdateIconSelections();
