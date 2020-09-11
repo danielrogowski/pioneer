@@ -65,7 +65,16 @@ local startLocations = {
 		{misc.atmospheric_shielding,1},
 		{misc.autopilot,1},
 		{misc.radar,1},
-		{cargo.hydrogen,2}}}
+        {cargo.hydrogen,2}}},
+    {['name']=lui.START_AT_NEW_HOPE_DIFFICULT,
+     ['desc']=lui.START_AT_NEW_HOPE_DIFFICULT_DESC,
+     ['location']=SystemPath.New(1,-1,-1,0,5),
+     ['shipType']='xylophis',['money']=25,['hyperdrive']=false,
+     ['equipment']={
+        {misc.atmospheric_shielding,1},
+        {misc.autopilot,1},
+        {misc.radar,1},
+        {cargo.hydrogen,2}}}
 }
 
 local function dialogTextButton(label, enabled, callback)

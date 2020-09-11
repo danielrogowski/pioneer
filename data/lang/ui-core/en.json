@@ -1643,6 +1643,14 @@
     "description": "",
     "message": "This is a moderate start from Itzalean on New Hope in the Epsilon Eridani system."
   },
+  "START_AT_NEW_HOPE_DIFFICULT": {
+    "description": "New Hope is an in game location",
+    "message": "Start poor at New Hope"
+  },
+  "START_AT_NEW_HOPE_DIFFICULT_DESC": {
+    "description": "",
+    "message": "This is a quite difficult start from starport New Hope on planet New Hope in the Epsilon Eridani system."
+  },
   "STAR_FIELD_DENSITY": {
     "description": "",
     "message": "Density of Star field"
