@@ -750,7 +750,7 @@ misc.cargo_life_support = EquipType.New({
 })
 misc.autopilot = EquipType.New({
 	l10n_key="AUTOPILOT", slots="autopilot", price=1400,
-	capabilities={mass=1, set_speed=1, autopilot=1}, purchasable=true, tech_level=1
+	capabilities={mass=0, set_speed=1, autopilot=1}, purchasable=true, tech_level=1
 })
 misc.target_scanner = EquipType.New({
 	l10n_key="TARGET_SCANNER", slots="target_scanner", price=900,
@@ -774,7 +774,7 @@ misc.multi_scoop = EquipType.New({
 })
 misc.hypercloud_analyzer = EquipType.New({
 	l10n_key="HYPERCLOUD_ANALYZER", slots="hypercloud", price=1500,
-	capabilities={mass=1, hypercloud_analyzer=1}, purchasable=true, tech_level=10
+	capabilities={mass=0, hypercloud_analyzer=1}, purchasable=true, tech_level=10
 })
 misc.shield_energy_booster = EquipType.New({
 	l10n_key="SHIELD_ENERGY_BOOSTER", slots="energy_booster", price=10000,
