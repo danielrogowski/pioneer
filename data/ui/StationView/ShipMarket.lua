@@ -20,7 +20,7 @@ local ui = Engine.ui
 
 local l = Lang.GetResource("ui-core")
 
-local shipSellPriceReduction = 0.5
+local shipSellPriceReduction = 0.7
 local equipSellPriceReduction = 0.8
 
 local shipClassString = {
