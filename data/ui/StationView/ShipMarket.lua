@@ -20,7 +20,7 @@ local ui = Engine.ui
 
 local l = Lang.GetResource("ui-core")
 
-local shipSellPriceReduction = 0.7
+local shipSellPriceReduction = 0.8
 local equipSellPriceReduction = 0.8
 
 local shipClassString = {
@@ -74,7 +74,7 @@ local function tradeInValue (def)
 	local value = def.basePrice * shipSellPriceReduction * Game.player.hullPercent/100
 
 	if def.hyperdriveClass > 0 then
-		value = value - Equipment.hyperspace["hyperdrive_" .. def.hyperdriveClass].price * equipSellPriceReduction
+		value = value + Equipment.hyperspace["hyperdrive_" .. def.hyperdriveClass].price * equipSellPriceReduction
 	end
 
 	for _, t in pairs({Equipment.misc, Equipment.hyperspace, Equipment.laser}) do

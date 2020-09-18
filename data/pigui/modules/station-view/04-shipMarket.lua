@@ -34,7 +34,7 @@ local selectedItem
 
 local currentIconSize = Vector2(0,0)
 
-local shipSellPriceReduction = 0.5
+local shipSellPriceReduction = 0.8
 local equipSellPriceReduction = 0.8
 
 local modelSpinner = ModelSpinner()
@@ -78,7 +78,7 @@ local tradeInValue = function(shipDef)
 	local value = shipDef.basePrice * shipSellPriceReduction * Game.player.hullPercent/100
 
 	if shipDef.hyperdriveClass > 0 then
-		value = value - Equipment.hyperspace["hyperdrive_" .. shipDef.hyperdriveClass].price * equipSellPriceReduction
+		value = value + Equipment.hyperspace["hyperdrive_" .. shipDef.hyperdriveClass].price * equipSellPriceReduction
 	end
 
 	for _, t in pairs({Equipment.misc, Equipment.hyperspace, Equipment.laser}) do
