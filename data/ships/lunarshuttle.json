@@ -14,7 +14,7 @@
    "min_crew" : 1,
    "model" : "lunarshuttle",
    "name" : "Lunar Shuttle",
-   "price" : 101000.0,
+   "price" : 50500.0,
    "reverse_thrust" : 1100000.0,
    "right_thrust" : 600000.0,
    "ship_class" : "light_passenger_shuttle",

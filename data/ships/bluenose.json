@@ -17,7 +17,7 @@
    "min_crew" : 2,
    "model" : "bluenose",
    "name" : "Bluenose",
-   "price" : 308000.0,
+   "price" : 154000.0,
    "ship_class" : "light_freighter",
    "capacity" : 600,
    "slots" : {

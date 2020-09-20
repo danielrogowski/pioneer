@@ -6,7 +6,7 @@
 	"ship_class" : "medium_fighter",
 	"min_crew" : 1,
 	"max_crew" : 1,
-	"price" : 189000,
+	"price" : 94500,
 	"hull_mass" : 25,
 	"capacity" : 12,
 	"slots" : {

@@ -14,7 +14,7 @@
    "min_crew" : 1,
    "model" : "sinonatrix",
    "name" : "Sinonatrix",
-   "price" : 219000.0,
+   "price" : 109500.0,
    "reverse_thrust" : 1200000.0,
    "right_thrust" : 1000000.0,
    "ship_class" : "light_courier",

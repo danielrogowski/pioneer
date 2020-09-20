@@ -14,7 +14,7 @@
    "min_crew" : 1,
    "model" : "amphiesma",
    "name" : "Amphiesma",
-   "price" : 168000.0,
+   "price" : 84000.0,
    "reverse_thrust" : 1000000.0,
    "right_thrust" : 500000.0,
    "ship_class" : "medium_courier",

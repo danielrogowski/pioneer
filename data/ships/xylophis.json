@@ -14,7 +14,7 @@
    "min_crew" : 1,
    "model" : "xylophis",
    "name" : "Xylophis",
-   "price" : 64000.0,
+   "price" : 32000.0,
    "reverse_thrust" : 245000.0,
    "right_thrust" : 144000.0,
    "ship_class" : "light_cargo_shuttle",

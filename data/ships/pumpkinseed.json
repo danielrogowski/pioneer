@@ -14,7 +14,7 @@
    "min_crew" : 1,
    "model" : "pumpkinseed",
    "name" : "Pumpkinseed",
-   "price" : 162000.0,
+   "price" : 81000.0,
    "reverse_thrust" : 1000000.0,
    "right_thrust" : 340000.0,
    "ship_class" : "light_courier",

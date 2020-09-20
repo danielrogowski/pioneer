@@ -14,7 +14,7 @@
    "min_crew" : 1,
    "model" : "varada",
    "name" : "Varada",
-   "price" : 123000.0,
+   "price" : 61500.0,
    "reverse_thrust" : 200000.0,
    "right_thrust" : 240000.0,
    "ship_class" : "light_courier",

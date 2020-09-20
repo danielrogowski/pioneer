@@ -14,7 +14,7 @@
    "min_crew" : 1,
    "model" : "wave",
    "name" : "Wave",
-   "price" : 269000.0,
+   "price" : 134500.0,
    "reverse_thrust" : 1400000.0,
    "right_thrust" : 800000.0,
    "ship_class" : "medium_fighter",

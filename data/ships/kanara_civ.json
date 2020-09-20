@@ -6,7 +6,7 @@
 	"ship_class" : "light_fighter",
 	"min_crew" : 1,
 	"max_crew" : 2,
-	"price" : 156000,
+	"price" : 78000,
 	"hull_mass" : 10,
 	"capacity" : 8,
 	"slots" : {
